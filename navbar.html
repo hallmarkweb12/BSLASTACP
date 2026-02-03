@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            position: relative;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" tabindex="0">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="avatar.jpg" alt="" class="rounded-pill" style="width: 40px;">
+                    Fawaz
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div id="home" class="container-fluid bg-info" style="padding: 100px 20px;">
+                <h1>Home</h1>  
+                <p class="lead">THIS IS MY HOME SECTION</p>
+        </div>
+
+        <br>
+
+        <div id="about" class="container-fluid bg-danger" style="padding: 100px 20px;">
+            <h1>ABOUT</h1>
+            <p>THIS IS MY ABOUT SECTION</p>
+        </div>
+
+        <br>
+
+        <div class="container-fluid bg-warning" id="contact" style="padding: 100px 20px;">
+            <div id="contact">
+                <h1>Contact</h1>
+                <p>THIS IS MY CONTACT SECTION</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container-fluid bg-dark text-white" id="services" style="padding: 100px 20px;">
+            <h1>SERVICES</h1>
+            <p>THIS IS MY SERVICES SECTION</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
